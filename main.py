@@ -52,7 +52,7 @@ def get_best_captions(img_features, text_features, captions):
     img2text_similarity = similarity.softmax(dim=-1)
     _, idx = img2text_similarity.topk(dim=-1, k=5)
 
-    st.write("## AI thinks:")
+    st.write("## AI sees:")
     for caption in captions.loc[idx.cpu().numpy().ravel(), "caption"].values:
         st.write(caption)
 
