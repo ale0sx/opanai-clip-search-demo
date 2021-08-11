@@ -58,12 +58,12 @@ def get_best_captions(img_features, text_features, captions):
 
 
 model, processor, captions, text_embeddings = load_model()
-st.header("SortingAI Demo")
-url = st.text_input("Insert url of image", value=DEFAULT_IMAGE)
+st.header("Sorting Tech Demo")
+url = st.text_input("Paste an image url", value=DEFAULT_IMAGE)
 image, img_features = get_image(url, model, processor)
 st.image(image)
 
 get_best_captions(img_features, text_embeddings, captions)
 
-st.write("## Combining OpenAI CLIP + Apple Core ML")
-st.write("If you enjoyed this demo check the search engine I'm [building.](http://sortingai.com/)")
+st.write("Main Stacks: OpenAI CLIP + Apple Core ML")
+st.write("If you find this demo useful please sign up the [search engine I'm building.](http://sortingai.com/)")
