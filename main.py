@@ -65,5 +65,5 @@ st.image(image)
 
 get_best_captions(img_features, text_embeddings, captions)
 
-st.write("Main Stacks: OpenAI CLIP + Apple Core ML")
-st.write("If you find this demo useful please sign up the [search engine I'm building.](http://sortingai.com/)")
+st.write("### Main Stacks: OpenAI CLIP + Apple Core ML")
+st.write("### If you find this demo useful please sign up the [search engine I'm building.](http://sortingai.com/)")
