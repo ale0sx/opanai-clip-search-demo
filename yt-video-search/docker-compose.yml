@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+
+  video-search-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: video-search-app:latest
+    container_name: video-search-app-container
+    ports:
+      - 80:80
+    command: streamlit run video_search_app.py --server.port 80
