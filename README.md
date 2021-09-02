@@ -1,4 +1,4 @@
-# Sorting Demo
+# Sorting Vision Demo
 
 ### Extract the text/ object/ scene in a photo
 
