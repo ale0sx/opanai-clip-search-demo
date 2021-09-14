@@ -58,7 +58,7 @@ def get_best_captions(img_features, text_features, captions):
 
 
 model, processor, captions, text_embeddings = load_model()
-st.header("Sorting Vision Demo")
+st.header("Vision Demo")
 url = st.text_input("Paste an image url", value=DEFAULT_IMAGE)
 image, img_features = get_image(url, model, processor)
 st.image(image)
