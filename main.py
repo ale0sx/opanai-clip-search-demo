@@ -66,4 +66,4 @@ st.image(image)
 get_best_captions(img_features, text_embeddings, captions)
 
 st.write("### [Post](https://ale0sx.notion.site/Powerful-Visual-Search-Engine-8275890894ed43aca87ede94982a53f3) ; [Code on Github](https://github.com/ale0sx/sorting-search-demo)")
-st.write("### If you find this demo useful please sign up [the search engine I'm building.](https://www.sortingai.com/)")
+st.write("### If you find this demo useful please sign up [the search engine I'm building.](https://www.memento.so)")
